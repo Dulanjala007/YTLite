@@ -36,7 +36,7 @@ on:
 
       ipa_url:
         description: "URL to the decrypted IPA file"
-        default: ""
+        default: "https://filebin.net/rprc5si31saa2ukk"
         required: true
         type: string
 
@@ -54,7 +54,7 @@ on:
 
       bundle_id:
         description: "BundleID (Optional)"
-        default: "com.google.ios.youtube"
+        default: "com.google.ios.youtube.plus"
         required: true
         type: string
 
